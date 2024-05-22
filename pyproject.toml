@@ -1,0 +1,15 @@
+[project]
+name = "segment_to_mask_comfyui"
+description = "Nodes:SegToMask"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["transformers", "torch", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/ginlov/segment_to_mask_comfyui"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "segment_to_mask_comfyui"
+Icon = ""
